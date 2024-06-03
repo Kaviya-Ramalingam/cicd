@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="2" skipped="1">
+<testng-results retried="1" ignored="1" total="7" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-23T17:35:16 EST" name="Suite" finished-at="2023-11-23T17:37:13 EST" duration-ms="117697">
+  <suite started-at="2024-05-30T15:28:34 EDT" name="Suite" finished-at="2024-05-30T15:30:17 EDT" duration-ms="102922">
     <groups>
       <group name="Purchase">
-        <method signature="SubmitOrderTest.login(java.util.HashMap)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" name="login" class="SeleniumFramework.SeleniumFramework.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.login(java.util.HashMap)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" name="login" class="SeleniumFramework.SeleniumFramework.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-11-23T17:35:16 EST" name="SubmitOrderTest" finished-at="2023-11-23T17:37:13 EST" duration-ms="117697">
+    <test started-at="2024-05-30T15:28:34 EDT" name="SubmitOrderTest" finished-at="2024-05-30T15:30:11 EDT" duration-ms="96602">
       <class name="SeleniumFramework.SeleniumFramework.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:35:16 EST" name="launchApplication" finished-at="2023-11-23T17:35:21 EST" duration-ms="5492" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:28:34 EDT" name="launchApplication" finished-at="2024-05-30T15:28:41 EDT" duration-ms="6783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="login(java.util.HashMap)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:35:21 EST" name="login" data-provider="getData" finished-at="2023-11-23T17:36:42 EST" duration-ms="80486" status="FAIL">
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:28:41 EDT" name="login" data-provider="getData" finished-at="2024-05-30T15:29:42 EDT" duration-ms="60931" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -35,33 +35,33 @@ at SeleniumFramework.pageobject.LandingPage.getErrorMessage(LandingPage.java:42)
 at SeleniumFramework.SeleniumFramework.SubmitOrderTest.login(SubmitOrderTest.java:41)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1589)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[class*='flyInOut']"}
-  (Session info: chrome=119.0.6045.159)
+  (Session info: chrome=125.0.6422.113)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10d77c6f6cfb97d382a63f6498f48868, findElement {using=css selector, value=[class*='flyInOut']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52324/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10d77c6f6cfb97d382a63f6498f48868
+Command: [2e8a8c11b0912167be8edf41f455329c, findElement {using=css selector, value=[class*='flyInOut']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e8a8c11b0912167be8edf41f455329c
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -90,15 +90,15 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:36:45 EST" name="teardown" finished-at="2023-11-23T17:36:45 EST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:29:43 EDT" name="teardown" finished-at="2024-05-30T15:29:43 EDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:36:45 EST" name="launchApplication" finished-at="2023-11-23T17:36:52 EST" duration-ms="6947" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:29:43 EDT" name="launchApplication" finished-at="2024-05-30T15:29:49 EDT" duration-ms="5324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="login(java.util.HashMap)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:36:52 EST" name="login" data-provider="getData" finished-at="2023-11-23T17:37:13 EST" duration-ms="21039" status="FAIL">
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:29:49 EDT" name="login" data-provider="getData" finished-at="2024-05-30T15:30:10 EDT" duration-ms="21227" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -109,25 +109,25 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".mb-3:nth-child(1) .btn.w-10.rounded"}
-  (Session info: chrome=119.0.6045.159)
+  (Session info: chrome=125.0.6422.113)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a3be3d0c4399076236c7f20d8b740a24, findChildElement {id=E31065D52A7A6771A7C949B729096491_element_61, using=css selector, value=.mb-3:nth-child(1) .btn.w-10.rounded}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52691}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52691/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a3be3d0c4399076236c7f20d8b740a24]]>
+Command: [283c9f1e205a99023ca688ce4ad787e4, findChildElement {id=f.3A6000DA3688F3839C518B0716391373.d.FC4592AFB39A5A0C8C9F8A494D83C3F7.e.72, using=css selector, value=.mb-3:nth-child(1) .btn.w-10.rounded}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64813/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 283c9f1e205a99023ca688ce4ad787e4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".mb-3:nth-child(1) .btn.w-10.rounded"}
-  (Session info: chrome=119.0.6045.159)
+  (Session info: chrome=125.0.6422.113)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a3be3d0c4399076236c7f20d8b740a24, findChildElement {id=E31065D52A7A6771A7C949B729096491_element_61, using=css selector, value=.mb-3:nth-child(1) .btn.w-10.rounded}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52691}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52691/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a3be3d0c4399076236c7f20d8b740a24
+Command: [283c9f1e205a99023ca688ce4ad787e4, findChildElement {id=f.3A6000DA3688F3839C518B0716391373.d.FC4592AFB39A5A0C8C9F8A494D83C3F7.e.72, using=css selector, value=.mb-3:nth-child(1) .btn.w-10.rounded}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64813/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 283c9f1e205a99023ca688ce4ad787e4
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -146,20 +146,20 @@ at SeleniumFramework.pageobject.ProductCatalogue.addProductToCart(ProductCatalog
 at SeleniumFramework.SeleniumFramework.SubmitOrderTest.login(SubmitOrderTest.java:46)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
@@ -170,28 +170,28 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:37:13 EST" name="teardown" finished-at="2023-11-23T17:37:13 EST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:30:11 EDT" name="teardown" finished-at="2024-05-30T15:30:11 EDT" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="orderHistoryTest(java.lang.String)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]" started-at="2023-11-23T17:37:13 EST" name="orderHistoryTest" finished-at="2023-11-23T17:37:13 EST" depends-on-methods="SeleniumFramework.SeleniumFramework.SubmitOrderTest.login" duration-ms="0" status="SKIP">
+        <test-method signature="orderHistoryTest(java.lang.String)[pri:0, instance:SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]" started-at="2024-05-30T15:30:11 EDT" name="orderHistoryTest" finished-at="2024-05-30T15:30:11 EDT" depends-on-methods="SeleniumFramework.SeleniumFramework.SubmitOrderTest.login" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method SeleniumFramework.SeleniumFramework.SubmitOrderTest.orderHistoryTest() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b depends on not successfully finished methods 
-[SeleniumFramework.SeleniumFramework.SubmitOrderTest.login() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]]]>
+              <![CDATA[Method SeleniumFramework.SeleniumFramework.SubmitOrderTest.orderHistoryTest() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244 depends on not successfully finished methods 
+[SeleniumFramework.SeleniumFramework.SubmitOrderTest.login() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SeleniumFramework.SeleniumFramework.SubmitOrderTest.orderHistoryTest() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b depends on not successfully finished methods 
-[SeleniumFramework.SeleniumFramework.SubmitOrderTest.login() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@cb0755b]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+              <![CDATA[java.lang.Throwable: Method SeleniumFramework.SeleniumFramework.SubmitOrderTest.orderHistoryTest() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244 depends on not successfully finished methods 
+[SeleniumFramework.SeleniumFramework.SubmitOrderTest.login() on instance SeleniumFramework.SeleniumFramework.SubmitOrderTest@1caa0244]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
@@ -204,5 +204,110 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
         </test-method> <!-- orderHistoryTest -->
       </class> <!-- SeleniumFramework.SeleniumFramework.SubmitOrderTest -->
     </test> <!-- SubmitOrderTest -->
+    <test started-at="2024-05-30T15:28:34 EDT" name="ErrorValidation" finished-at="2024-05-30T15:30:17 EDT" duration-ms="102922">
+      <class name="SeleniumFramework.SeleniumFramework.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:28:34 EDT" name="launchApplication" finished-at="2024-05-30T15:28:41 EDT" duration-ms="7012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:28:41 EDT" name="loginErrorValidation" finished-at="2024-05-30T15:30:02 EDT" duration-ms="80891" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [class*='flyInOut']' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [class*='flyInOut']' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+at SeleniumFramework.AbstractComponent.AbstractComponent.waitForWebElementToAppear(AbstractComponent.java:30)
+at SeleniumFramework.pageobject.LandingPage.getErrorMessage(LandingPage.java:42)
+at SeleniumFramework.SeleniumFramework.ErrorValidation.loginErrorValidation(ErrorValidation.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[class*='flyInOut']"}
+  (Session info: chrome=125.0.6422.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e8a8c11b0912167be8edf41f455329c, findElement {using=css selector, value=[class*='flyInOut']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e8a8c11b0912167be8edf41f455329c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:02 EDT" name="teardown" finished-at="2024-05-30T15:30:02 EDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:02 EDT" name="launchApplication" finished-at="2024-05-30T15:30:07 EDT" duration-ms="5182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:07 EDT" name="loginErrorValidation" finished-at="2024-05-30T15:30:09 EDT" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:09 EDT" name="teardown" finished-at="2024-05-30T15:30:09 EDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:09 EDT" name="launchApplication" finished-at="2024-05-30T15:30:14 EDT" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:14 EDT" name="productErrorValidation" finished-at="2024-05-30T15:30:17 EDT" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.SeleniumFramework.ErrorValidation@50378a4]" started-at="2024-05-30T15:30:17 EDT" name="teardown" finished-at="2024-05-30T15:30:17 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumFramework.SeleniumFramework.ErrorValidation -->
+    </test> <!-- ErrorValidation -->
   </suite> <!-- Suite -->
 </testng-results>

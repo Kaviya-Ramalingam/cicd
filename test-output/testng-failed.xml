@@ -16,4 +16,15 @@
       </class> <!-- SeleniumFramework.SeleniumFramework.SubmitOrderTest -->
     </classes>
   </test> <!-- SubmitOrderTest(failed) -->
+  <test thread-count="2" parallel="tests" name="ErrorValidation(failed)">
+    <classes>
+      <class name="SeleniumFramework.SeleniumFramework.ErrorValidation">
+        <methods>
+          <include name="loginErrorValidation"/>
+          <include name="teardown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- SeleniumFramework.SeleniumFramework.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidation(failed) -->
 </suite> <!-- Failed suite [Suite] -->
